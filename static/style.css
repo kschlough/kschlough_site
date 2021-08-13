@@ -1,24 +1,28 @@
-/* colour sheme: https://www.schemecolor.com/cambridge-shades.php */
+/* colour sheme: https://www.schemecolor.com/highest-achievement.php */
+/* blue #6A75B3 */
+/* pale pink #FBEDEC */
+/* melon #FABFB1 */
+/* red #C25C5A */
 
 /* ############################################################ */
 /* base styling */
 body {
     font-family: 'Karla', sans-serif;
-    background-color: #F9FFFC;
-    color: #6B9080; 
+    background-color: #FBEDEC;
+
 }
 
 button {
     border-radius: 15px;
     border-color: none;
     border-style: none;
-    color: #F9FFFC;
+    color: #FBEDEC;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
     font-family: 'Karla', sans-serif;
-    background-color: #6B9080;
+    background-color: #6A75B3;
 }
 
 li {
@@ -52,18 +56,8 @@ h5 {
 
 /* ############################################################ */
 /* homepage */
-.view {
-    height: 125vh;
-    width: 100vw;
-    background-image: url('/static/unsplash-book.jpg'); 
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    background-position: center center;
-    opacity: 0.75;
 
-  }
-
-#homepage-text {
+/* #homepage-text {
     position: relative;
     top: 50%;
     left: 50%;
@@ -72,7 +66,13 @@ h5 {
     transform: translate(-50%, -750%);
     text-align: center;
 
-  }
+  } */
+
+#site-title {
+    text-align: left;
+    padding: 20px;
+    color: #6A75B3; 
+}
 
 #homepage-options {
     text-align: left;
@@ -84,7 +84,7 @@ h5 {
 
 
 .col-homepage {
-    background-color: #F9FFFC;
+    background-color: #FBEDEC;
     border-radius: 15px;
     padding: 15px; 
     opacity: 0.9;
@@ -94,8 +94,7 @@ h5 {
 
 /* ############################################################ */
 /* navbar */
-/* #nav-div {
-    text-decoration: none;
+#nav-div {
     width: 100vw;
     height: auto;
     background-color: #6B9080;
@@ -110,17 +109,17 @@ h5 {
     
 }
 
+/* note to future self: this is the part that makes the links not blue */
 a {
     color: inherit;
 }
 
 a:hover {
     color: inherit;
-    text-decoration: none;
     font-weight: bolder;
     font-size-adjust: 10px;
 
-} */
+}
 
 
 /* ############################################################ */
@@ -136,5 +135,6 @@ a:hover {
     margin-bottom: none;
     margin-top: none;
     padding-top: none;
-    background-color: #E4F4EE;
-}
+    background-color: #FABFB1;
+    color: #FBEDEC;
+}    
