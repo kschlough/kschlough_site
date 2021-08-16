@@ -1,14 +1,14 @@
-/* colour sheme: https://www.schemecolor.com/highest-achievement.php */
-/* blue #6A75B3 */
-/* pale pink #FBEDEC */
-/* melon #FABFB1 */
-/* red #C25C5A */
+/* colour sheme: https://www.schemecolor.com/beyond-training.php */
+/* white #E2DAD3 */
+/* pale green #A4B9AF */
+/* blue #81A0B4 */
+/* dark grey #6B6975 */
 
 /* ############################################################ */
 /* base styling */
 body {
     font-family: 'Karla', sans-serif;
-    background-color: #FBEDEC;
+    background-color: #E2DAD3;
 
 }
 
@@ -16,13 +16,13 @@ button {
     border-radius: 15px;
     border-color: none;
     border-style: none;
-    color: #FBEDEC;
+    color: #E2DAD3;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
     font-family: 'Karla', sans-serif;
-    background-color: #6A75B3;
+    /* background-color: #6A75B3; */
 }
 
 li {
@@ -71,7 +71,8 @@ h5 {
 #site-title {
     text-align: left;
     padding: 20px;
-    color: #6A75B3; 
+    color: #81A0B4; 
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 #homepage-options {
@@ -84,7 +85,7 @@ h5 {
 
 
 .col-homepage {
-    background-color: #FBEDEC;
+    background-color: #E2DAD3;
     border-radius: 15px;
     padding: 15px; 
     opacity: 0.9;
@@ -97,8 +98,8 @@ h5 {
 #nav-div {
     width: 100vw;
     height: auto;
-    background-color: #6B9080;
-    color: #F9FFFC;
+    /* background-color: #6B9080; */
+    color: #E2DAD3;
 
 }
 
@@ -135,6 +136,6 @@ a:hover {
     margin-bottom: none;
     margin-top: none;
     padding-top: none;
-    background-color: #FABFB1;
-    color: #FBEDEC;
+    background-color: #A4B9AF;
+    color: #E2DAD3;
 }    
