@@ -1,5 +1,5 @@
 /* colour sheme: https://www.schemecolor.com/beyond-training.php */
-/* white #E2DAD3 */
+/* white (not in scheme) #f7f3f0 */
 /* pale green #A4B9AF */
 /* blue #81A0B4 */
 /* dark grey #6B6975 */
@@ -8,7 +8,7 @@
 /* base styling */
 body {
     font-family: 'Karla', sans-serif;
-    background-color: #E2DAD3;
+    background-color: #f7f3f0;
 
 }
 
@@ -16,7 +16,7 @@ button {
     border-radius: 15px;
     border-color: none;
     border-style: none;
-    color: #E2DAD3;
+    color: #f7f3f0;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px;
@@ -85,7 +85,7 @@ h5 {
 
 
 .col-homepage {
-    background-color: #E2DAD3;
+    background-color: #f7f3f0;
     border-radius: 15px;
     padding: 15px; 
     opacity: 0.9;
@@ -99,7 +99,7 @@ h5 {
     width: 100vw;
     height: auto;
     /* background-color: #6B9080; */
-    color: #E2DAD3;
+    color: #f7f3f0;
 
 }
 
@@ -137,5 +137,5 @@ a:hover {
     margin-top: none;
     padding-top: none;
     background-color: #A4B9AF;
-    color: #E2DAD3;
+    color: #f7f3f0;
 }    
