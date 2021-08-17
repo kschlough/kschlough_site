@@ -57,16 +57,20 @@ h5 {
 /* ############################################################ */
 /* homepage */
 
-/* #homepage-text {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    height: 25vh;
-    width: 50vw;
-    transform: translate(-50%, -750%);
-    text-align: center;
+#bio {
+    justify-content: right;
+    /* padding: 20px; */
+    padding-left: 70%;
+    padding-right: 0%;
+    border-radius: .5ex;
+    /* border-color: #6B6975; */
+    /* background-color: #A4B9AF; */
+    /* color: #f7f3f0; */
+}
 
-  } */
+#bio-text {
+    text-align: center;
+}
 
 #site-title {
     text-align: left;
