@@ -1,48 +1,35 @@
 /* colour sheme: https://www.schemecolor.com/beyond-training.php */
 /* white (not in scheme) #f7f3f0 */
 /* pale green #A4B9AF */
+/* accent light green #dbe7e1 */
 /* blue #81A0B4 */
 /* dark grey #6B6975 */
+
 
 /* ############################################################ */
 /* base styling */
 body {
     font-family: 'Karla', sans-serif;
     background-color: #f7f3f0;
-
+    color: #6B6975;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
-button {
-    border-radius: 15px;
-    border-color: none;
-    border-style: none;
-    color: #f7f3f0;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-family: 'Karla', sans-serif;
-    /* background-color: #6A75B3; */
+#title {
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 li {
     list-style: none;
     padding-right: 10px;
     padding-left: 10px;
-
-}
-
-.container {
-    padding: 15px;
-}
-
-.wrapper {
-    height: 125vh;
-    width: 100vw;
 }
 
 h1 {
-    font-size: 200%;
+    font-size: 300%;
 }
 
 h2 {
@@ -53,25 +40,8 @@ h5 {
     font-size: 100%;
 }
 
-
 /* ############################################################ */
-/* homepage */
-
-#bio {
-    justify-content: right;
-    /* padding: 20px; */
-    padding-left: 70%;
-    padding-right: 0%;
-    border-radius: .5ex;
-    /* border-color: #6B6975; */
-    /* background-color: #A4B9AF; */
-    /* color: #f7f3f0; */
-}
-
-#bio-text {
-    text-align: center;
-}
-
+/* site title */
 #site-title {
     text-align: left;
     padding: 20px;
@@ -79,67 +49,77 @@ h5 {
     font-family: 'Josefin Sans', sans-serif;
 }
 
-#homepage-options {
-    text-align: left;
-}
-
-#choice {
-    padding-bottom: 15px;
-}
-
-
-.col-homepage {
-    background-color: #f7f3f0;
-    border-radius: 15px;
-    padding: 15px; 
-    opacity: 0.9;
-
-  }
-
-
 /* ############################################################ */
 /* navbar */
-#nav-div {
-    width: 100vw;
-    height: auto;
-    /* background-color: #6B9080; */
-    color: #f7f3f0;
-
-}
-
-#nav-options {
-    padding: 20px;
-    margin-bottom: 0;
-    display: flex;
-    
-}
-
 /* note to future self: this is the part that makes the links not blue */
 a {
     color: inherit;
 }
 
-a:hover {
-    color: inherit;
-    font-weight: bolder;
-    font-size-adjust: 10px;
-
-}
-
-
 /* ############################################################ */
 /* footer */
 #footer-links {
     display: flex;
-    justify-content: center;
-    padding-top: 10px;
-    margin-top: 10px; 
+    flex-direction: row;
+    padding: 10px;
+}
+
+.content {
+    flex: 1 0 auto;
 }
 
 #footer {
-    margin-bottom: none;
-    margin-top: none;
-    padding-top: none;
+    min-height: 50px;
+    flex-shrink: 0;
     background-color: #A4B9AF;
     color: #f7f3f0;
-}    
+}
+
+/* ############################################################ */
+/* computer bio box */
+/* laptop css tutorial: https://www.youtube.com/watch?v=qu2qFGfkN4c */
+#bio {
+    color: #000;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* .screen {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+.laptop {
+    width: 340px;
+    height: 200px;
+    background: #fdfdfd;
+    border: 16px solid #262626;
+    border-bottom: 8px solid #262626;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    box-shadow: 4px 0 0 #ccc, -4px 0 0 #ccc, 0 -4px 0 #ccc;   
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+    position: relative;
+    margin-left: auto;
+    margin-right: 5%;
+}
+
+.laptop:after {
+    content: '';
+    background: #b6b6b6;
+    border-top: 10px solid #686767;
+    border-bottom: 4px solid #919191;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+
+
