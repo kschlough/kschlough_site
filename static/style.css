@@ -95,7 +95,7 @@ a {
     height: 200px;
     background: #fdfdfd;
     border: 16px solid #262626;
-    border-bottom: 8px solid #262626;
+    border-bottom: 10px solid #262626;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 2px;
@@ -109,15 +109,30 @@ a {
     margin-right: 5%;
 }
 
-.laptop:after {
+.laptop:before {
     content: '';
-    background: #b6b6b6;
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+    position: relative;
+    background: #fff;
+    bottom: -185px;
+    left: -15%;
+    height: 10px;
+    width: 130%;
     border-top: 10px solid #686767;
     border-bottom: 4px solid #919191;
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+
+}
+
+.laptop:after {
+    content: '';
+    background: #b6b6b6;
+    
 }
 
 
