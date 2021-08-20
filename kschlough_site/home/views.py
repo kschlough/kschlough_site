@@ -1,5 +1,7 @@
 from django.shortcuts import render
 
 def home_view(request):
-    template_name = "base.html"
-    return render(request, template_name)
+    qs = BlogPost.objects.all()
+    template_name = 'home.html'
+    context = {'object_list': qs}
+    return render(request, template_name, context)
